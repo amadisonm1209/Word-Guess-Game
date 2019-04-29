@@ -1,0 +1,41 @@
+.container{
+    margin: 25px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+h1,
+h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color: #F0FFFF;
+}
+h2{
+    color: #696969;
+}
+header{
+    background-color: #A0522d;
+    flex: 1;
+    text-align: center;
+    margin: 25px 0;
+    padding: 25px;
+    
+}
+.img{
+    max-width: 400px;
+}
+p{
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
