@@ -57,8 +57,8 @@ document.onkeyup = function (event) {
     }
     if (remainingLetters.indexOf("_") === -1) {
         wins++;
-        document.getElementById("wins").innerHTML = wins;
-        alert("Nicely done! The word was: " + currentWord);
+        document.getElementById("wins").innerHTML = wins; 
+        getAFact();
         //call a reset function to pick a new word
         resetGame();
     }
@@ -70,6 +70,11 @@ document.onkeyup = function (event) {
 
 //End of Game
 
+function getAFact() {
+    coffeeFacts = ["See if this workds", "Are you working?", "Am I crazy for doing this?"];
+    var fact = coffeeFacts[Math.floor(Math.random() * coffeeFacts.length)];
+    document.getElementById("coffeeFacts").innerHTML = fact;
+    } 
 
 
 function resetGame() {
