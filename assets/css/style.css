@@ -1,5 +1,6 @@
-.container{
-    margin: 25px;
+.wrapper{
+    margin-top: 25px;
+
 }
 .row {
     display: flex;
@@ -22,6 +23,7 @@ h2{
 h2{
     color: #696969;
 }
+
 header{
     background-color: #A0522d;
     flex: 1;
@@ -33,14 +35,17 @@ header{
 .img{
     max-width: 400px;
 }
+
 p{
     color: #696969;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 30px;
+    margin-top: 25px;
 }
 #coffeeFacts{
+    color: #A0522d;
     font-family: 'Poiret One', cursive;
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 25px;
+    margin-top: 20px;
 }
